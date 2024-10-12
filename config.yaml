@@ -1,0 +1,10 @@
+Forward:
+  ServerAddr: work.youcd.online:6802
+  ServerUser: ycd
+  ServerAuthMethod:
+    PublicKeys:
+      PrivateKeyPath: /home/ycd/.ssh/id_rsa
+  Project:
+    - Project: 'vm'
+      RemoteAddr: 127.0.0.1:8886
+      LocalAddr: 0.0.0.0:8887
